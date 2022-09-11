@@ -1,0 +1,32 @@
+
+
+.Title {
+   text-align: center; 
+}
+
+.subTitle {
+    margin-left: 2vw;
+}
+
+.Text_subTitle {
+    margin-left: 3vw;
+}
+
+.list_heading {
+    margin-left: 4vw;
+}
+
+.todo_list {
+    margin-left: 4vw;
+    width: 70%;
+}
+
+.todos {
+    border: 0.2vw solid black;
+    margin: 2vw;
+    padding: 2vw;
+}
+
+.label {
+    font-weight: bold;
+}
