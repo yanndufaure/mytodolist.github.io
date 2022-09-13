@@ -1,4 +1,8 @@
 import React from "react";
+import TemplateTask from "./TemplateTask";
+import task from "../TodoList.json";
+import AddNew from "./AddNew";
+
 import "./TodoList.css";
 
 function TodoList() {
@@ -14,28 +18,12 @@ function TodoList() {
       <h2 id="list_heading" className="list_heading">
         tâches à faire
       </h2>
-      <ul className="todo_list">
-        <li className="todos">
-          <label className="label">Etudier le projet avant de se lancer</label>
-          <p>Fait</p>
-        </li>
-        <li className="todos">
-          <label className="label">Effectuer des recherches</label>
-          <p>Fait</p>
-        </li>
-        <li className="todos">
-          <label className="label">Lancer le projet</label>
-          <p>Fait</p>
-        </li>
-        <li className="todos">
-          <label className="label">Effectuer des tests</label>
-          <p>En cours de réalisation</p>
-        </li>
-        <li className="todos">
-          <label className="label">Faire des commits au bon moment</label>
-          <p>En cours de réalisation</p>
-        </li>
-      </ul>
+      <div className="todo_list" key={"id"}>
+          {task["task"].map((tasks) => (
+            <TemplateTask my_input={tasks} />
+          ))}
+      </div>
+      <AddNew />
     </div>
   );
 }
