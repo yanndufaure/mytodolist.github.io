@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import TodoList from "./Component/TodoList";
 
-import './App.css'
+import "./App.css";
 
 function App() {
   return (

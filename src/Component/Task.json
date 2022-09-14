@@ -1,0 +1,29 @@
+{
+    "task": [
+        {
+            "id": "1",
+            "title": "Etudier le projet avant de se lancer",
+            "description": "bien lire les consignes avant de commencer"
+        },
+        {
+            "id": "2",
+            "title": "Effectuer des recherches",
+            "description": "demander des conseils aux collègues, rechercher sur internet, les cours..."
+        },
+        {
+            "id": "3",
+            "title": "Lancer le projet",
+            "description": "Effectuer un create-react-app, installer les tests, écrire le code"
+        },
+        {
+            "id": "4",
+            "title": "Effectuer des tests",
+            "description": "Une fois le code rédiger, effectuer des tests unitaires"
+        },
+        {
+            "id": "5",
+            "title": "Faire des commits au bon moment",
+            "description": "ne pas oublier de faire des commits à chaque étape"
+        }
+    ]
+}

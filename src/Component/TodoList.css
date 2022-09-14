@@ -1,7 +1,5 @@
-
-
 .Title {
-   text-align: center; 
+    text-align: center;
 }
 
 .subTitle {
@@ -17,6 +15,7 @@
 }
 
 .todo_list {
+
     margin-left: 4vw;
     width: 70%;
 }
@@ -29,4 +28,8 @@
 
 .label {
     font-weight: bold;
+}
+
+.btnCloseModal {
+    margin-top: 2vw;
 }

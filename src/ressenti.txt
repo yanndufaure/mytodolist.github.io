@@ -1,0 +1,21 @@
+Bonjour,
+
+voici mon ressenti de ce test technique.
+
+J'ai été mis en difficulté, je dois l'avouer, par le fait qu'il faille respecter un ordre de réalisation.
+Je me suis rendu compte que j'étais loin d'être à l'aise avec les modifications d'état ou le changement
+de position des tâches sur la page en fonction si elles sont faîtes ou non.
+
+Je sais que c'est pour voir ma manière de rédiger le code mais, personnellement, j'aurais
+été plus à l'aise à effectuer une base de donnée avec POSTGRESQL, un serveur et organiser l'apparition des tâches avec des requêtes SQL.
+(J'ai organisé des pseudos requêtes sur un fichier json qui au final, ne fonctionnent pas, soucis d'appel vers le fichier)
+
+Je n'avais jamais réalisé de test unitaire ou utiliser github.pages (j'espère que ça fonctionnera).
+
+En voyant ce test, je pensais que ce serait facil et finalement, ça a été beaucoup plus compliqué.
+
+
+extension of HttpXhrBackend => même après recherche, ça reste un grand mystère pour moi, on m'a parlé de moke mais dans le temps imparti
+et les conditions de réalisation de ce test, je n'ai pas pu creusé plus que ça.
+
+J'espère que ce test répondra à vos attentes et que je pourrai l'approfondir avec vous au cours d'un entretien.
