@@ -9,12 +9,11 @@ function AddNew() {
   }, []);
 
   function getTask() {
-    fetch("http://localhost:3000/TodoList.json")
+    fetch(`http://localhost:3000/TodoList.json`)
       .then((response) => {
         return response.text();
       })
       .then((data) => {
-        console.log(data);
         setTask(data);
       });
   }
@@ -24,7 +23,7 @@ function AddNew() {
     let title = prompt("entrer un titre");
     let description = prompt("entrer une description");
 
-    fetch("http://localhost:3000/TodoList.json", {
+    fetch(`http://localhost:3000/TodoList.json`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -1,6 +1,6 @@
 import React from "react";
 import TemplateTask from "./TemplateTask";
-import task from "../TodoList.json";
+import task from "./Task.json";
 import AddNew from "./AddNew";
 
 import "./TodoList.css";
@@ -18,10 +18,10 @@ function TodoList() {
       <h2 id="list_heading" className="list_heading">
         tâches à faire
       </h2>
-      <div className="todo_list" key={"id"}>
-          {task["task"].map((tasks) => (
-            <TemplateTask my_input={tasks} />
-          ))}
+      <div className="todo_list" key={task["id"]}>
+        {task["task"].map((tasks) => (
+          <TemplateTask my_input={tasks} />
+        ))}
       </div>
       <AddNew />
     </div>
